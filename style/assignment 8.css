@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    display: flex;
+}
+.sideNav{
+    width: 30%;
+    height: 96vh;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(227, 48, 95);
+    overflow: auto;
+    overflow-x: hidden;
+}
+.sideNav nav{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.items{
+    background-color: aqua;
+    text-align: center;
+    text-decoration: none;
+}
+.content{
+    width: 70%;
+    height: 96vh;
+    padding: 20px;
+    background-color: aquamarine;
+    overflow: auto;
+}
+.cards-section{    
+display: flex;
+flex-wrap: wrap;
+gap: 12px;
+}
+.cards{
+    background-color: darkgrey;
+    height: 100px;
+    width: 200px;
+    /*when i set the width in percentage(%) value it do not wrap*/
+}
