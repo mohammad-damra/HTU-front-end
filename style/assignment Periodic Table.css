@@ -1,0 +1,517 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid red;
+  height: 100vh;
+  gap: 40px;
+}
+.grid-1 {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(7, 60px);
+  grid-template-areas:
+    "child-1 . . . . . . . . . . . . . . . . child-2"
+    "child-3 child-4 . . . . . . . . . . child-5 child-6 child-7 child-8 child-9 child-10"
+    "child-11 child-12 . . . . . . . . . . child-13 child-14 child-15 child-16 child-17 child-18"
+    "child-19 child-20 child-21 child-22 child-23 child-24 child-25 child-26 child-27 child-28 child-29 child-30 child-31 child-32 child-33 child-34 child-35 child-36"
+    "child-37 child-38 child-39 child-40 child-41 child-42 child-43 child-44 child-45 child-46 child-47 child-48 child-49 child-50 child-51 child-52 child-53 child-54"
+    "child-55 child-56 child-57 child-58 child-59 child-60 child-61 child-62 child-63 child-64 child-65 child-66 child-67 child-68 child-69 child-70 child-71 child-72"
+    "child-73 child-74 child-75 child-76 child-77 child-78 child-79 child-80 child-81 child-82 child-83 child-84 child-85 child-86 child-87 child-88 child-89 child-90";
+  gap: 4px;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(2, 60px);
+  grid-template-areas:
+    ". . . child-91 child-92 child-93 child-94 child-95 child-96 child-97 child-98 child-99 child-100 child-101 child-102 child-103 child-104 child-105"
+    ". . . child-106 child-107 child-108 child-109 child-110 child-111 child-112 child-113 child-114 child-115 child-116 child-117 child-118 child-119 child-120";
+  gap: 4px;
+}
+.child-1 {
+  background-color: red;
+  grid-area: child-1;
+}
+.child-2 {
+  background-color: pink;
+  grid-area: child-2;
+}
+.child-3 {
+  background-color: orange;
+  grid-area: child-3;
+}
+.child-4 {
+  background-color: rgb(122, 76, 76);
+  grid-area: child-4;
+}
+.child-5 {
+  background-color: rgb(15, 237, 237);
+  grid-area: child-5;
+}
+.child-6 {
+  background-color: rgb(91, 130, 230);
+  grid-area: child-6;
+}
+.child-7 {
+  background-color: blue;
+  grid-area: child-7;
+}
+.child-8 {
+  background-color: rgb(166, 6, 246);
+  grid-area: child-8;
+}
+.child-9 {
+  background-color: purple;
+  grid-area: child-9;
+}
+.child-10 {
+  background-color: pink;
+  grid-area: child-10;
+}
+.child-11 {
+  background-color: orange;
+  grid-area: child-11;
+}
+.child-12 {
+  background-color: rgb(122, 76, 76);
+  grid-area: child-12;
+}
+.child-13 {
+  background-color: rgb(15, 237, 237);
+  grid-area: child-13;
+}
+.child-14 {
+  background-color: rgb(91, 130, 230);
+  grid-area: child-14;
+}
+.child-15 {
+  background-color: blue;
+  grid-area: child-15;
+}
+.child-16 {
+  background-color: rgb(166, 6, 246);
+  grid-area: child-16;
+}
+.child-17 {
+  background-color: purple;
+  grid-area: child-17;
+}
+.child-18 {
+  background-color: pink;
+  grid-area: child-18;
+}
+.child-19 {
+  background-color: rgb(15, 237, 237);
+  grid-area: child-19;
+}
+.child-20 {
+  background-color: rgb(91, 130, 230);
+  grid-area: child-20;
+}
+.child-21 {
+  background-color: green;
+  grid-area: child-21;
+}
+.child-22 {
+  background-color: green;
+  grid-area: child-22;
+}
+.child-23 {
+  background-color: green;
+  grid-area: child-23;
+}
+.child-24 {
+  background-color: green;
+  grid-area: child-24;
+}
+.child-25 {
+  background-color: green;
+  grid-area: child-25;
+}
+.child-26 {
+  background-color: green;
+  grid-area: child-26;
+}
+.child-27 {
+  background-color: green;
+  grid-area: child-27;
+}
+.child-28 {
+  background-color: green;
+  grid-area: child-28;
+}
+.child-29 {
+  background-color: green;
+  grid-area: child-29;
+}
+.child-30 {
+  background-color: green;
+  grid-area: child-30;
+}
+.child-31 {
+  background-color: rgb(15, 237, 237);
+  grid-area: child-31;
+}
+.child-32 {
+  background-color: rgb(91, 130, 230);
+  grid-area: child-32;
+}
+.child-33 {
+  background-color: blue;
+  grid-area: child-33;
+}
+.child-34 {
+  background-color: rgb(166, 6, 246);
+  grid-area: child-34;
+}
+.child-35 {
+  background-color: purple;
+  grid-area: child-35;
+}
+.child-36 {
+  background-color: pink;
+  grid-area: child-36;
+}
+.child-37 {
+  background-color: rgb(15, 237, 237);
+  grid-area: child-37;
+}
+.child-38 {
+  background-color: rgb(91, 130, 230);
+  grid-area: child-38;
+}
+.child-39 {
+  background-color: green;
+  grid-area: child-39;
+}
+.child-40 {
+  background-color: green;
+  grid-area: child-40;
+}
+.child-41 {
+  background-color: green;
+  grid-area: child-41;
+}
+.child-42 {
+  background-color: green;
+  grid-area: child-42;
+}
+.child-43 {
+  background-color: green;
+  grid-area: child-43;
+}
+.child-44 {
+  background-color: green;
+  grid-area: child-44;
+}
+.child-45 {
+  background-color: green;
+  grid-area: child-45;
+}
+.child-46 {
+  background-color: green;
+  grid-area: child-46;
+}
+.child-47 {
+  background-color: green;
+  grid-area: child-47;
+}
+.child-48 {
+  background-color: green;
+  grid-area: child-48;
+}
+.child-49 {
+  background-color: rgb(15, 237, 237);
+  grid-area: child-49;
+}
+.child-50 {
+  background-color: rgb(91, 130, 230);
+  grid-area: child-50;
+}
+.child-51 {
+  background-color: blue;
+  grid-area: child-51;
+}
+.child-52 {
+  background-color: rgb(166, 6, 246);
+  grid-area: child-52;
+}
+.child-53 {
+  background-color: purple;
+  grid-area: child-53;
+}
+.child-54 {
+  background-color: pink;
+  grid-area: child-54;
+}
+.child-55 {
+  background-color: rgb(15, 237, 237);
+  grid-area: child-55;
+}
+.child-56 {
+  background-color: rgb(91, 130, 230);
+  grid-area: child-56;
+}
+.child-57 {
+  background-color: green;
+  grid-area: child-57;
+}
+.child-58 {
+  background-color: green;
+  grid-area: child-58;
+}
+.child-59 {
+  background-color: green;
+  grid-area: child-59;
+}
+.child-60 {
+  background-color: green;
+  grid-area: child-60;
+}
+.child-61 {
+  background-color: green;
+  grid-area: child-61;
+}
+.child-62 {
+  background-color: green;
+  grid-area: child-62;
+}
+.child-63 {
+  background-color: green;
+  grid-area: child-63;
+}
+.child-64 {
+  background-color: green;
+  grid-area: child-64;
+}
+.child-65 {
+  background-color: green;
+  grid-area: child-65;
+}
+.child-66 {
+  background-color: green;
+  grid-area: child-66;
+}
+.child-67 {
+  background-color: rgb(15, 237, 237);
+  grid-area: child-67;
+}
+.child-68 {
+  background-color: rgb(91, 130, 230);
+  grid-area: child-68;
+}
+.child-69 {
+  background-color: blue;
+  grid-area: child-69;
+}
+.child-70 {
+  background-color: rgb(166, 6, 246);
+  grid-area: child-70;
+}
+.child-71 {
+  background-color: purple;
+  grid-area: child-71;
+}
+.child-72 {
+  background-color: pink;
+  grid-area: child-72;
+}
+.child-73 {
+  background-color: rgb(15, 237, 237);
+  grid-area: child-73;
+}
+.child-74 {
+  background-color: rgb(91, 130, 230);
+  grid-area: child-74;
+}
+.child-75 {
+  background-color: green;
+  grid-area: child-75;
+}
+.child-76 {
+  background-color: green;
+  grid-area: child-76;
+}
+.child-77 {
+  background-color: green;
+  grid-area: child-77;
+}
+.child-78 {
+  background-color: green;
+  grid-area: child-78;
+}
+.child-79 {
+  background-color: green;
+  grid-area: child-79;
+}
+.child-80 {
+  background-color: green;
+  grid-area: child-80;
+}
+.child-81 {
+  background-color: green;
+  grid-area: child-81;
+}
+.child-82 {
+  background-color: green;
+  grid-area: child-82;
+}
+.child-83 {
+  background-color: green;
+  grid-area: child-83;
+}
+.child-84 {
+  background-color: green;
+  grid-area: child-84;
+}
+.child-85 {
+  background-color: rgb(15, 237, 237);
+  grid-area: child-85;
+}
+.child-86 {
+  background-color: rgb(91, 130, 230);
+  grid-area: child-86;
+}
+.child-87 {
+  background-color: blue;
+  grid-area: child-87;
+}
+.child-88 {
+  background-color: rgb(166, 6, 246);
+  grid-area: child-88;
+}
+.child-89 {
+  background-color: purple;
+  grid-area: child-89;
+}
+.child-90 {
+  background-color: pink;
+  grid-area: child-90;
+}
+.child-91 {
+  background-color: lightgrey;
+  grid-area: child-91;
+}
+.child-92 {
+  background-color: lightgrey;
+  grid-area: child-92;
+}
+.child-93 {
+  background-color: lightgrey;
+  grid-area: child-93;
+}
+.child-94 {
+  background-color: lightgrey;
+  grid-area: child-94;
+}
+.child-95 {
+  background-color: lightgrey;
+  grid-area: child-95;
+}
+.child-96 {
+  background-color: lightgrey;
+  grid-area: child-96;
+}
+.child-97 {
+  background-color: lightgrey;
+  grid-area: child-97;
+}
+.child-98 {
+  background-color: lightgrey;
+  grid-area: child-98;
+}
+.child-99 {
+  background-color: lightgrey;
+  grid-area: child-99;
+}
+.child-100 {
+  background-color: lightgrey;
+  grid-area: child-100;
+}
+.child-101 {
+  background-color: lightgrey;
+  grid-area: child-101;
+}
+.child-102 {
+  background-color: lightgrey;
+  grid-area: child-102;
+}
+.child-103 {
+  background-color: lightgrey;
+  grid-area: child-103;
+}
+.child-104 {
+  background-color: lightgrey;
+  grid-area: child-104;
+}
+.child-105 {
+  background-color: lightgrey;
+  grid-area: child-105;
+}
+.child-106 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-106;
+}
+.child-107 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-107;
+}
+.child-108 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-108;
+}
+.child-109 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-109;
+}
+.child-110 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-110;
+}
+.child-111 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-111;
+}
+.child-112 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-112;
+}
+.child-113 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-113;
+}
+.child-114 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-114;
+}
+.child-115 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-115;
+}
+.child-116 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-116;
+}
+.child-117 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-117;
+}
+.child-118 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-118;
+}
+.child-119 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-119;
+}
+.child-120 {
+  background-color: rgb(22, 39, 75);
+  grid-area: child-120;
+}
