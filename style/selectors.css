@@ -1,0 +1,14 @@
+body {
+  margin: 0px;
+}
+@media (max-width: 400px) {
+  body {
+    background-color: #ddd;
+  }
+}
+.first-par:hover {
+  background-color: red;
+}
+.second-par:hover {
+  background-color: blue;
+}
