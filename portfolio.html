@@ -5,31 +5,192 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
     <header>
       <div class="header-content">
-        <a href="#" class="logo">MD</a>
+        <a href="#" class="logo">M<span>D</span></a>
         <nav class="navigation">
-          <a href="#">Service</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <a href="#service">Service</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
         </nav>
       </div>
     </header>
     <main>
       <section class="main">
         <div>
-          <h2>Hello, Im Mohammad</h2>
+          <h2>Hello, I'm Mohammad</h2>
           <span>Frontend Developer</span>
+          <br />
           <h1>I design web pages</h1>
+          <a href="#projects" class="main-btn">My work</a>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
         </div>
       </section>
-      <section id="service"></section>
-      <section id="projects"></section>
-      <section id="contact"></section>
+      <section id="service" class="cards">
+        <h2 class="title">Service</h2>
+        <div class="content">
+          <div class="card">
+            <div class="icon-section">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="card-info">
+              <h3>Clean code</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+                dignissimos itaque voluptatum nihil, beatae molestias iure
+                asperiores sequi repellat eaque Distinctio .
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-section">
+              <i class="fas fa-wand-magic-sparkles"></i>
+            </div>
+            <div class="card-info">
+              <h3>Modern design</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+                dignissimos itaque voluptatum nihil, beatae molestias iure
+                asperiores sequi repellat eaque Distinctio .
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-section">
+              <i class="fas fa-gears"></i>
+            </div>
+            <div class="card-info">
+              <h3>Efficient websites</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+                dignissimos itaque voluptatum nihil, beatae molestias iure
+                asperiores sequi repellat eaque Distinctio .
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+          <div class="project-card">
+            <div class="project-card-img">
+              <img src="images/project-1.jpg" alt="" />
+            </div>
+            <div class="project-card-info">
+              <p class="project-card-desc">Lorem ipsum dolor sit.</p>
+              <strong class="project-title">
+                <span>Dev Books</span>
+                <a href="#" class="details">More details</a>
+              </strong>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-img">
+              <img src="images/project-2.png" alt="" />
+            </div>
+            <div class="project-card-info">
+              <p class="project-card-desc">Lorem ipsum dolor sit.</p>
+              <strong class="project-title">
+                <span>Dev Books</span>
+                <a href="#" class="details">More details</a>
+              </strong>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-img">
+              <img src="images/project-3.png" alt="" />
+            </div>
+            <div class="project-card-info">
+              <p class="project-card-desc">Lorem ipsum dolor sit.</p>
+              <strong class="project-title">
+                <span>Dev Books</span>
+                <a href="#" class="details">More details</a>
+              </strong>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-img">
+              <img src="images/project-4.png" alt="" />
+            </div>
+            <div class="project-card-info">
+              <p class="project-card-desc">Lorem ipsum dolor sit.</p>
+              <strong class="project-title">
+                <span>Dev Books</span>
+                <a href="#" class="details">More details</a>
+              </strong>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-img">
+              <img src="images/project-5.png" alt="" />
+            </div>
+            <div class="project-card-info">
+              <p class="project-card-desc">Lorem ipsum dolor sit.</p>
+              <strong class="project-title">
+                <span>Dev Books</span>
+                <a href="#" class="details">More details</a>
+              </strong>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-img">
+              <img src="images/project-6.jpg" alt="" />
+            </div>
+            <div class="project-card-info">
+              <p class="project-card-desc">Lorem ipsum dolor sit.</p>
+              <strong class="project-title">
+                <span>Dev Books</span>
+                <a href="#" class="details">More details</a>
+              </strong>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="title">Contact</h2>
+        <div class="content">
+          <div class="card">
+            <div class="icon-section">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="card-info">
+              <h3>Phone</h3>
+              <p>+962780931121</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-section">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="card-info">
+              <h3>Email</h3>
+              <p>mohammad.s.damra@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p class="footer-text">Copyrights @ <span>mohammad damra</span></p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </footer>
   </body>
 </html>

@@ -3,7 +3,7 @@
 :root {
   --white: #f0f0f0;
   --light-blue: #3a6cf4;
-  --dark-blue: #000016;
+  --dark-blue: #050530;
 }
 * {
   font-family: "Poppins", sans-serif;
@@ -23,27 +23,50 @@ header {
 }
 .header-content {
   display: flex;
-  max-width: 800px;
+  max-width: 1000px;
   min-width: 600px;
   justify-content: space-between;
   align-items: center;
 }
 .logo {
   text-decoration: none;
-  color: var(--light-blue);
+  color: var(--dark-blue);
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2rem;
   flex: 1 50%;
 }
-.navigation {
+span {
   color: var(--light-blue);
-  text-decoration: none;
+}
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light-blue);
   font-size: 1.2rem;
   font-weight: 500;
   margin: auto 12px;
+}
+a {
   text-decoration: none;
+}
+.navigation a:visited,
+a:active {
+  color: inherit;
+}
+.navigation a:hover {
+  transition-duration: 0.25s;
+  transform: scale(1.2);
+  background-color: var(--light-blue);
+  color: white;
+  border-radius: 5px;
 }
 main {
   padding: 1rem;
+}
+
+.project-card-img img {
+  width: 600px;
 }
